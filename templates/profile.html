@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>User Profile </title>
+	<link rel="stylesheet" href="https://stackpath.bootstraphcdn.com/bootstrap/4.5.2/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="mt-5"> User Profile</h1>
+		<div class="card mt-3">
+			<div class="card-body">
+				<h5 class="card-title">Welcome, {{ firstname }} {{ lastname }}!</h5>
+				<p class="card-text"><strong>Username:</strong> {{ username }}</p>
+				<p class="card-text"><strong>Email:</strong> {{ email }}</p>
+			</div>
+		</div>
+		<a href="/" class="btn btn-primary mt-3">Back to Registration</a>
+	</div>
+</body>
+</html>
